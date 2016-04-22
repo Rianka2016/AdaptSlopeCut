@@ -1,0 +1,11 @@
+Package: AdaptSlopeCut
+Title: Simulation study to estimate optimal clinical cut-off point in a clinical study
+Version: 0.0.1
+Author: Rianka Bhattacharya <riankabh@gmail.com>
+Maintainer: Rianka Bhattacharya <riankabh@gmail.com>
+Description: The package helps in creating simulation study to calculate the optimal clinical cut-off point in a clinical study involving cure rate survival data
+Depends: R (>= 3.0.3)
+License: NJIT
+LazyData: true
+Imports: survival, plyr, numDeriv, mvtnorm, cubature, data.table, reshape2, ggplot2, GGally
+Suggests: ggplot2
